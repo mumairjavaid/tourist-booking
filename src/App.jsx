@@ -5,6 +5,7 @@ import Offers from "./components/Offers"
 import Plans from "./components/Plans"
 import Rooms from "./components/Rooms"
 import ImageSlider from "./components/ImageSlider"
+import Footer from "./components/Footer";
 const App = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const App = () => {
       <Plans/>
       <Rooms/>
       <ImageSlider/>
+      <Footer/>
     </>
   );
 };

@@ -42,7 +42,7 @@ const ImageSlider = () => {
         <div onClick={nextSlide} className='absolute top-[50%] right-[5%] cursor-pointer translate-y-[-50%]'><FaChevronCircleRight size={30}/></div>
         <div className='py-4 flex justify-center'>
         {slides.map((slide, slideIndex) => (
-          <div key={slideIndex} className='px-2' >
+          <div key={slideIndex} className='px-2'>
             <RxDotFilled onClick={()=>{moveToSlide(slideIndex)}} className='cursor-pointer' size={25} />
           </div>
         ))}
